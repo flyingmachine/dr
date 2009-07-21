@@ -1,0 +1,36 @@
+echo Enter "ratha", "crossing", "shard", or "haven"
+match ratha ratha
+matchwait
+
+ratha:
+put go burs
+put exc all k to l
+put exc all d to l
+put go atrium
+put go cashier
+put dep all
+put balance
+put go atrium
+exit
+
+crossing:
+put go booth
+put exc all l to k
+put exc all d to k
+put out
+put go window
+put dep all
+put balance
+put out
+exit
+
+haven:
+put go arch
+put go door
+put exc all k to l
+put exc all d to l
+put go arch
+put dep all
+put balance
+put out
+exit

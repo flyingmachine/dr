@@ -1,0 +1,36 @@
+# .juggle jugglies.name
+start:
+put get my %1
+pause
+
+juggle:
+put juggle my %1
+waitfor roundtime
+pause
+put juggle my %1
+waitfor roundtime
+pause
+put juggle my %1
+waitfor roundtime
+pause
+put juggle my %1
+waitfor roundtime
+pause
+put juggle my %1
+waitfor roundtime
+pause
+put juggle my %1
+waitfor roundtime
+pause
+
+
+put exp skill perception
+
+match juggle time development
+match end mind lock
+matchwait
+
+end:
+pause
+put put my %1 in my pack
+pause

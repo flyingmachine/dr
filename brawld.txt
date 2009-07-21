@@ -1,0 +1,11 @@
+start:
+put circle
+waitfor roundtime
+pause 1
+put bob
+waitfor roundtime
+pause 1
+put weave
+waitfor roundtime
+pause 1
+goto start

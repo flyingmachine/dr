@@ -1,0 +1,95 @@
+# .boxparts parts.container
+
+hammer:
+put get tiny hammer in %1
+match sellhammer You get
+match studs What were
+matchwait
+
+sellhammer:
+put give hammer to %2
+goto hammer
+
+studs:
+put get studs in %1
+match sellstuds You get
+match needle What were
+matchwait
+
+sellstuds:
+put give studs to %2
+goto studs
+
+needle:
+put get needle in %1
+match sellneedle You get
+match tube What were
+matchwait
+
+sellneedle:
+put give needle to %2
+goto needle
+
+tube:
+put get tube in %1
+match selltube You get
+match face What were
+matchwait
+
+selltube:
+put give tube to %2
+goto tube
+
+
+face:
+put get face in %1
+match sellface You get
+match pin What were
+matchwait
+
+sellface:
+put give face to %2
+goto face
+
+pin:
+put get pin in %1
+match sellpin You get
+match crystal What were
+matchwait
+
+sellpin:
+put give pin to %2
+goto pin
+
+crystal:
+put get crystal in %1
+match sellcrystal You get
+match seal What were
+matchwait
+
+sellcrystal:
+put give crystal to %2
+goto crystal
+
+seal:
+put get seal in %1
+match sellseal You get
+match exit What were
+matchwait
+
+sellseal:
+put give seal to %2
+goto seal
+
+rune:
+put get rune in %1
+match sellrune You get
+match exit What were
+matchwait
+
+sellrune:
+put give rune to %2
+goto rune
+
+exit:
+exit

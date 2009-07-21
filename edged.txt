@@ -1,0 +1,17 @@
+start:
+put feint
+waitfor roundtime
+pause 1
+put draw
+waitfor roundtime
+pause 1
+put sweep
+waitfor roundtime
+pause 1
+put sli
+waitfor roundtime
+pause 1
+put chop
+waitfor roundtime
+pause 1
+goto start

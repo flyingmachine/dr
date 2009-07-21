@@ -1,0 +1,16 @@
+# .shoot ammo.name
+
+start:
+put load
+waitfor roundtime
+put aim
+match shoot best shot
+matchwait
+
+shoot:
+put fire
+waitfor roundtime
+pause 1
+put search %2
+put stow %1
+goto start

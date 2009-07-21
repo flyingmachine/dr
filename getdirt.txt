@@ -1,0 +1,6 @@
+start:
+put forage dirt
+waitfor roundtime
+pause 1
+put put dirt in %1
+goto start

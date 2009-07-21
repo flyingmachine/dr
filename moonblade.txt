@@ -1,0 +1,102 @@
+# Works PM, Harness, MD, and PP
+# With the new PP system, PP gets worked much faster than the other three.
+# MD gets worked the least. I sometimes will run the shapemoonblade script to compensate.
+
+# TODO: detect when moonblade is gone and create a new one
+
+start:
+put pre shmo
+put per psy
+waitfor roundtime
+pause 1
+put per moonl
+waitfor roundtime
+pause 1
+put harness 1
+waitfor roundtime
+pause 1
+put cast moonblade
+put pre shmo
+put per trans
+waitfor roundtime
+pause 1
+put per per
+waitfor roundtime
+pause 1
+put harness 1
+waitfor roundtime
+pause 1
+put cast moonblade
+put pre shmo
+put per psy
+waitfor roundtime
+pause 1
+put per moonl
+waitfor roundtime
+pause 1
+put harness 1
+waitfor roundtime
+pause 1
+put cast moonblade
+put pre shmo
+put per trans
+waitfor roundtime
+pause 1
+put per per
+waitfor roundtime
+pause 1
+put harness 1
+waitfor roundtime
+pause 1
+put cast moonblade
+put shape moonblade to curved
+waitfor roundtime
+pause 1
+put pre shmo
+put per psy
+waitfor roundtime
+pause 1
+put per moonl
+waitfor roundtime
+pause 1
+put harness 1
+waitfor roundtime
+pause 1
+put cast moonblade
+put pre shmo
+put per trans
+waitfor roundtime
+pause 1
+put per per
+waitfor roundtime
+pause 1
+put harness 1
+waitfor roundtime
+pause 1
+put cast moonblade
+put pre shmo
+put per psy
+waitfor roundtime
+pause 1
+put per moonl
+waitfor roundtime
+pause 1
+put harness 1
+waitfor roundtime
+pause 1
+put cast moonblade
+put pre shmo
+put per trans
+waitfor roundtime
+pause 1
+put per per
+waitfor roundtime
+pause 1
+put harness 1
+waitfor roundtime
+pause 1
+put cast moonblade
+put shape moonblade to heavy
+waitfor roundtime
+pause 1
+goto start

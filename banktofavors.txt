@@ -1,0 +1,19 @@
+move nw
+move w
+move sw
+move sw
+move s
+move w
+move sw
+move GO PATH
+move sw
+move s
+move sw
+move sw
+move se
+move up
+move UP 
+move nw
+move GO TRAIL
+move GO ARCH
+move GO STONE

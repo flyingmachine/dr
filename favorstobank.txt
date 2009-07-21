@@ -1,0 +1,19 @@
+move e
+move GO ARCH
+move GO TRAIL
+move se
+move down
+move down
+move nw
+move NE 
+move ne
+move n
+move ne
+move GO PATH
+move ne
+move e
+move n
+move ne
+move ne
+move e
+move se

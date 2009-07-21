@@ -1,0 +1,14 @@
+# Works MD decently, at least with 50 ranks.
+# Each shaping has a 50-60 second rt, depending on skill.
+
+start:
+put shape moonblade to heavy
+waitfor roundtime
+pause 1
+put shape moonblade to normal
+waitfor roundtime
+pause 1
+put shape moonblade to curved
+waitfor roundtime
+pause 1
+goto start

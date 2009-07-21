@@ -1,0 +1,31 @@
+# Cycles through perceiving the different kinds of moon mana and four targets (i.e. moonbeams, people)
+
+start:
+put per %1
+waitfor roundtime
+pause 1
+put per %2
+waitfor roundtime
+pause 1
+put per %3
+waitfor roundtime
+pause 1
+put per %4
+waitfor roundtime
+pause 1
+put per psy
+waitfor roundtime
+pause 1
+put per moonl
+waitfor roundtime
+pause 1
+put per stell
+waitfor roundtime
+pause 1
+put per trans
+waitfor roundtime
+pause 1
+put per per
+waitfor roundtime
+pause 1
+goto start

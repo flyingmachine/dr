@@ -1,5 +1,9 @@
-echo Enter "ratha", "crossing", "shard", or "haven"
-match ratha ratha
+echo *** Currently works in Crossing, Haven, and Ratha ***
+
+put look
+match ratha Ratha
+match crossing Crossing
+match haven Haven
 matchwait
 
 ratha:

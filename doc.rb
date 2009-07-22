@@ -1,13 +1,12 @@
 script_documentation = <<-END
-Script Summary
-==============
+h1. Script Summary
 
 END
 
 scripts = []
 
 Dir.glob("*.txt").each do |filename|
-  script = ["**#{filename}**"]
+  script = ["*#{filename}*"]
   
   File.open(filename) do |file|
     lines = file.readlines
@@ -26,27 +25,26 @@ script_documentation << scripts.join("\n\n")
 script_documentation << <<-END
 
 
-Other script resources
-======================
+h1. Other script resources
 
-**Malific's Script Shop**  
+*Malific's Script Shop* 
 http://malific.com/  
 Hunting, box popping, foraging, and more  
 
-**Kraelyst's Travel Scripts**  
+*Kraelyst's Travel Scripts*  
 http://www.lurksponge.com/travel/scripts.html  
 Essential scripts for traversing Kemoria  
 
-**Aveda's SF Scripts**  
+*Aveda's SF Scripts*  
 http://dr.aveda.googlepages.com/scripts  
 
-**Elanthipedia**  
+*Elanthipedia*  
 http://www.elanthipedia.com/wiki/Scripts  
 
 
-Contact info
-------------
+h2. Contact info
+
 dont.drink.that.milk@gmail.com
 END
 
-File.open("README.markdown", "w") {|f| f.write(script_documentation)}
+File.open("README.textile", "w") {|f| f.write(script_documentation)}

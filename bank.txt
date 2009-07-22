@@ -2,7 +2,7 @@ echo *** Currently works in Crossing, Haven, and Ratha ***
 
 put look
 match ratha Ratha
-match crossing Crossing
+match crossing First Provincial Bank, Lobby
 match haven Haven
 matchwait
 

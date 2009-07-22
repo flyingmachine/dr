@@ -1,0 +1,64 @@
+#: Updated Aveda's script
+#: So it doesn't get stuck in an infinite loop
+
+#######################################
+### Aveda's Amazing Braiding Script ###
+###      Last updated 6/01/2008     ###
+### http://dr.aveda.googlepages.com ###
+###                                 ###
+###     To operate, just type:      ###
+###    .braid <disposal container>  ###
+#######################################
+
+if_1 goto test
+
+echo How to use:
+echo .braid <place you're going to stick all these ropes>
+exit
+
+test:
+	match end mind lock
+	match forage Overall state of
+	put skill ML
+	matchwait
+forage:
+	match forage ...wait
+	match braid You manage to find some grass.
+	match forage Roundtime:
+	put forage grass
+	matchwait
+braid:
+	match braid ...wait
+	match forage You need to have more material
+	match pull mistake
+	match dump wasted effort.
+	match braid Roundtime:
+	put braid my grass
+	matchwait
+pull:
+	match forage You need to have more material
+	match pull ...wait
+	match put rope
+	match dump You tug
+	put pull my grass
+	matchwait
+put:
+	match put ...wait
+	match test rope
+	match test empty
+	match dump What were you referring to?
+	put glance
+	put put my rope in %1
+	put drop my rope
+	matchwait
+dump:
+	match dump ...wait
+	match test You drop some
+	match test empty
+	match put What were you referring to?
+	put glance
+	put put my grass in %1
+	put drop my grass
+	matchwait
+end:
+

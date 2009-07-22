@@ -3,114 +3,114 @@
 # .boxparts parts.container part.buyer
 
 hammer:
-put get tiny hammer in %1
+put get tiny hammer
 match sellhammer You get
 match studs What were
 matchwait
 
 sellhammer:
-put give hammer to %2
+put give hammer to %1
 goto hammer
 
 studs:
-put get studs in %1
+put get studs
 match sellstuds You get
 match needle What were
 matchwait
 
 sellstuds:
-put give studs to %2
+put give studs to %1
 goto studs
 
 needle:
-put get needle in %1
+put get needle
 match sellneedle You get
 match tube What were
 matchwait
 
 sellneedle:
-put give needle to %2
+put give needle to %1
 goto needle
 
 tube:
-put get tube in %1
+put get tube
 match selltube You get
 match face What were
 matchwait
 
 selltube:
-put give tube to %2
+put give tube to %1
 goto tube
 
 
 face:
-put get face in %1
+put get face
 match sellface You get
 match pin What were
 matchwait
 
 sellface:
-put give face to %2
+put give face to %1
 goto face
 
 pin:
-put get pin in %1
+put get pin
 match sellpin You get
 match crystal What were
 matchwait
 
 sellpin:
-put give pin to %2
+put give pin to %1
 goto pin
 
 crystal:
-put get crystal in %1
+put get crystal
 match sellcrystal You get
 match seal What were
 matchwait
 
 sellcrystal:
-put give crystal to %2
+put give crystal to %1
 goto crystal
 
 seal:
-put get seal in %1
+put get seal
 match sellseal You get
 match striker What were
 matchwait
 
 sellseal:
-put give seal to %2
+put give seal to %1
 goto seal
 
 striker:
-put get steel striker in %1
+put get steel striker
 match sellstriker You get
 match reservoir What were
 matchwait
 
 sellstriker:
-put give striker to %2
+put give striker to %1
 goto striker
 
 reservoir:
-put get glass reservoir in %1
+put get glass reservoir
 match sellreservoir You get
 match rune What were
 matchwait
 
 sellreservoir:
-put give reservoir to %2
+put give reservoir to %1
 goto reservoir
 
 rune:
-put get rune in %1
+put get rune
 match sellrune You get
 match exit What were
 matchwait
 
 sellrune:
-put give rune to %2
+put give rune to %1
 goto rune
 
 exit:

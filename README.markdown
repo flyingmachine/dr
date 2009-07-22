@@ -1,71 +1,71 @@
 Script Summary
 ==============
 
-**bank.txt**
-Exchanges and deposits your money.
+**bank.txt**  
+Exchanges and deposits your money.  
 Currently works in Crossing, Ratha, Shard, possibly Haven
 
-**banktofavors.txt**
+**banktofavors.txt**  
 Takes you from Crossing bank to favor location
 
-**boxparts.txt**
+**boxparts.txt**  
 Sells boxparts in container to person specified
 
-**brawld.txt**
+**brawld.txt**  
 Cycles through circle, bob, and weave
 
-**edged.txt**
-cycles through feint, draw, sweep, slice, and chop 
+**edged.txt**  
+cycles through feint, draw, sweep, slice, and chop   
 for ME, HE, 2HE
 
-**favorstobank.txt**
+**favorstobank.txt**  
 Goes from favor location to Crossing bank
 
-**getdirt.txt**
+**getdirt.txt**  
 Forages dirt and puts it in specified container
 
-**halberd.txt**
+**halberd.txt**  
 Halberd combo that tries to avoid puncture attacks
 
-**juggle.txt**
+**juggle.txt**  
 Gets jugglies and juggles them until locked
 
-**moonblade.txt**
-Works PM, Harness, MD, and PP
-With the new PP system, PP gets worked much faster than the other three.
+**moonblade.txt**  
+Works PM, Harness, MD, and PP  
+With the new PP system, PP gets worked much faster than the other three.  
 MD gets worked the least. I sometimes will run the shapemoonblade script to compensate.
 
-**moonper.txt**
+**moonper.txt**  
 Cycles through perceiving the different kinds of moon mana and four targets (i.e. moonbeams, people)
 
-**shapemoonblade.txt**
-Continuously shapes a moonblade
-Works MD decently, at least with 50 ranks.
+**shapemoonblade.txt**  
+Continuously shapes a moonblade  
+Works MD decently, at least with 50 ranks.  
 Each shaping has a 50-60 second rt, depending on skill.
 
-**shoot.txt**
+**shoot.txt**  
 Loads weapon, aims, fires, then tries to stow ammo and search critter
 
-**spells.txt**
-Cycles through two spells, pausing specified seconds between them
+**spells.txt**  
+Cycles through two spells, pausing specified seconds between them  
 .spells 11 shadows ease
 
 Other script resources
 ======================
 
-**Malific's Script Shop**
-http://malific.com/
-Hunting, box popping, foraging, and more
+**Malific's Script Shop**  
+http://malific.com/  
+Hunting, box popping, foraging, and more  
 
-**Kraelyst's Travel Scripts**
-http://www.lurksponge.com/travel/scripts.html
-Essential scripts for traversing Kemoria
+**Kraelyst's Travel Scripts**  
+http://www.lurksponge.com/travel/scripts.html  
+Essential scripts for traversing Kemoria  
 
-**Aveda's SF Scripts**
-http://dr.aveda.googlepages.com/scripts
+**Aveda's SF Scripts**  
+http://dr.aveda.googlepages.com/scripts  
 
-**Elanthipedia**
-http://www.elanthipedia.com/wiki/Scripts
+**Elanthipedia**  
+http://www.elanthipedia.com/wiki/Scripts  
 
 
 Contact info

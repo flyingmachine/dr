@@ -1,0 +1,11 @@
+#: Cycles through two spells, pausing specified seconds between them
+#: .spells 11 shadows ease
+
+start:
+put pre %2
+pause %1
+put cast
+put pre %3
+pause %1
+put case
+goto start

@@ -1,4 +1,4 @@
-# Cycles through perceiving the different kinds of moon mana and four targets (i.e. moonbeams, people)
+#: Cycles through perceiving the different kinds of moon mana and four targets (i.e. moonbeams, people)
 
 start:
 put per %1

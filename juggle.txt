@@ -1,3 +1,5 @@
+#: Gets jugglies and juggles them until locked
+
 # .juggle jugglies.name
 start:
 put get my %1

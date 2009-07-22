@@ -1,5 +1,6 @@
-# Works MD decently, at least with 50 ranks.
-# Each shaping has a 50-60 second rt, depending on skill.
+#: Continuously shapes a moonblade
+#: Works MD decently, at least with 50 ranks.
+#: Each shaping has a 50-60 second rt, depending on skill.
 
 start:
 put shape moonblade to heavy

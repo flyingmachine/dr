@@ -1,9 +1,11 @@
-echo *** Currently works in Crossing, Haven, and Ratha ***
+#: Exchanges and deposits your money.
+#: Currently works in Crossing, Ratha, Shard, possibly Haven
 
 put look
 match ratha Ratha
 match crossing First Provincial Bank, Lobby
 match haven Haven
+match shard Shard
 matchwait
 
 ratha:
@@ -37,4 +39,15 @@ put go arch
 put dep all
 put balance
 put out
+exit
+
+shard:
+move e
+put exc all k to d
+put exc all l to d
+move w
+move n
+put dep all
+put balance
+put s
 exit

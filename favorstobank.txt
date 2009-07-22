@@ -1,3 +1,5 @@
+#: Goes from favor location to Crossing bank
+
 move e
 move GO ARCH
 move GO TRAIL

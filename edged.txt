@@ -1,3 +1,6 @@
+#: cycles through feint, draw, sweep, slice, and chop 
+#: for ME, HE, 2HE
+
 start:
 put feint
 waitfor roundtime

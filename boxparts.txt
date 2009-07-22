@@ -1,4 +1,6 @@
-# .boxparts parts.container
+#: Sells boxparts in container to person specified
+
+# .boxparts parts.container part.buyer
 
 hammer:
 put get tiny hammer in %1

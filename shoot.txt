@@ -1,3 +1,5 @@
+#: Loads weapon, aims, fires, then tries to stow ammo and search critter
+
 # .shoot ammo.name
 
 start:

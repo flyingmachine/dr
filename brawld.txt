@@ -1,3 +1,5 @@
+#: Cycles through circle, bob, and weave
+
 start:
 put circle
 waitfor roundtime

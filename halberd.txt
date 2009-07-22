@@ -1,3 +1,5 @@
+#: Halberd combo that tries to avoid puncture attacks
+
 start:
 put chop
 waitfor roundtime

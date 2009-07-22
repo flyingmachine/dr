@@ -1,3 +1,5 @@
+#: Forages dirt and puts it in specified container
+
 start:
 put forage dirt
 waitfor roundtime

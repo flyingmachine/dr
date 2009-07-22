@@ -1,6 +1,6 @@
-# Works PM, Harness, MD, and PP
-# With the new PP system, PP gets worked much faster than the other three.
-# MD gets worked the least. I sometimes will run the shapemoonblade script to compensate.
+#: Works PM, Harness, MD, and PP
+#: With the new PP system, PP gets worked much faster than the other three.
+#: MD gets worked the least. I sometimes will run the shapemoonblade script to compensate.
 
 # TODO: detect when moonblade is gone and create a new one
 

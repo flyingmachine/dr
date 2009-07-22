@@ -27,20 +27,15 @@ script_documentation << <<-END
 
 h1. Other script resources
 
-*Malific's Script Shop* 
-http://malific.com/  
+"*Malific's Script Shop*":http://malific.com/  
 Hunting, box popping, foraging, and more  
 
-*Kraelyst's Travel Scripts*  
-http://www.lurksponge.com/travel/scripts.html  
+"*Kraelyst's Travel Scripts*":http://www.lurksponge.com/travel/scripts.html  
 Essential scripts for traversing Kemoria  
 
-*Aveda's SF Scripts*  
-http://dr.aveda.googlepages.com/scripts  
+"*Aveda's SF Scripts*":http://dr.aveda.googlepages.com/scripts  
 
-*Elanthipedia*  
-http://www.elanthipedia.com/wiki/Scripts  
-
+"*Elanthipedia*":http://www.elanthipedia.com/wiki/Scripts  
 
 h2. Contact info
 

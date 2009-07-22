@@ -76,12 +76,32 @@ goto crystal
 seal:
 put get seal in %1
 match sellseal You get
-match exit What were
+match striker What were
 matchwait
 
 sellseal:
 put give seal to %2
 goto seal
+
+striker:
+put get steel striker in %1
+match sellstriker You get
+match reservoir What were
+matchwait
+
+sellstriker:
+put give striker to %2
+goto striker
+
+reservoir:
+put get glass reservoir in %1
+match sellreservoir You get
+match rune What were
+matchwait
+
+sellreservoir:
+put give reservoir to %2
+goto reservoir
 
 rune:
 put get rune in %1

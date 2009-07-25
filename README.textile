@@ -5,7 +5,7 @@ Exchanges and deposits your money.
 Currently works in Crossing, Ratha, Shard, possibly Haven
 
 *boxparts.txt*  
-Sells boxparts in container to person specified
+Sells parts collected from boxes to person specified
 
 *braid.txt*  
 Updated Aveda's script  

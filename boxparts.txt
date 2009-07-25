@@ -1,6 +1,6 @@
-#: Sells boxparts in container to person specified
+#: Sells parts collected from boxes to person specified
 
-# .boxparts parts.container part.buyer
+# .boxparts part.buyer
 
 hammer:
 put get tiny hammer

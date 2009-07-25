@@ -1,4 +1,4 @@
-#: Goes from favor location to Crossing bank
+#: Goes from favor location to Crossing west gate
 
 move e
 move GO ARCH

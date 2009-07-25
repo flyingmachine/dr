@@ -1,4 +1,4 @@
-#: Takes you from Crossing bank to favor location
+#: Takes you from Crossing west gate to favor location
 
 move nw
 move w

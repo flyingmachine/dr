@@ -1,4 +1,5 @@
-#Travel Ratha 4-2-07
+#: Kraelyst's Ratha script with the group check fixed
+#Travel Ratha 7-21-09
 
  ; -- This script was created by Kraelyst the Hand
  ; -- Most current version of this script available at

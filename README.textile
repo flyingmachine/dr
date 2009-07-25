@@ -4,11 +4,12 @@ h1. Script Summary
 Exchanges and deposits your money.  
 Currently works in Crossing, Ratha, Shard, possibly Haven
 
-*banktofavors.txt*  
-Takes you from Crossing bank to favor location
-
 *boxparts.txt*  
 Sells boxparts in container to person specified
+
+*braid.txt*  
+Updated Aveda's script  
+So it doesn't get stuck in an infinite loop
 
 *brawld.txt*  
 Cycles through circle, bob, and weave
@@ -17,8 +18,8 @@ Cycles through circle, bob, and weave
 cycles through feint, draw, sweep, slice, and chop   
 for ME, HE, 2HE
 
-*favorstobank.txt*  
-Goes from favor location to Crossing bank
+*favorstowgate.txt*  
+Goes from favor location to Crossing west gate
 
 *getdirt.txt*  
 Forages dirt and puts it in specified container
@@ -37,6 +38,9 @@ MD gets worked the least. I sometimes will run the shapemoonblade script to comp
 *moonper.txt*  
 Cycles through perceiving the different kinds of moon mana and four targets (i.e. moonbeams, people)
 
+*ratha-with-group-fixes.txt*  
+Kraelyst's Ratha script with the group check fixed
+
 *shapemoonblade.txt*  
 Continuously shapes a moonblade  
 Works MD decently, at least with 50 ranks.  
@@ -48,6 +52,9 @@ Loads weapon, aims, fires, then tries to stow ammo and search critter
 *spells.txt*  
 Cycles through two spells, pausing specified seconds between them  
 .spells 11 shadows ease
+
+*wgatetofavors.txt*  
+Takes you from Crossing west gate to favor location
 
 h1. Other script resources
 

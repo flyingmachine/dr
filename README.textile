@@ -14,6 +14,10 @@ So it doesn't get stuck in an infinite loop
 *brawld.txt*  
 Cycles through circle, bob, and weave
 
+*disarm-modified.txt*  
+Modified to pick blind twice  
+And to not fix lockpicks
+
 *edged.txt*  
 cycles through feint, draw, sweep, slice, and chop   
 for ME, HE, 2HE
@@ -52,6 +56,9 @@ Loads weapon, aims, fires, then tries to stow ammo and search critter
 *spells.txt*  
 Cycles through two spells, pausing specified seconds between them  
 .spells 11 shadows ease
+
+*swimditch.txt*  
+Swims back and forth in the Baerolt's farm ditch
 
 *wgatetofavors.txt*  
 Takes you from Crossing west gate to favor location

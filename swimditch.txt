@@ -1,0 +1,24 @@
+#: Swims back and forth in the Baerolt's farm ditch
+
+match swimnorth paths: north
+match swimsouth south
+put look
+matchwait
+
+swimnorth:
+put n
+match swimnorth paths: north
+match swimnorth wait
+match swimsouth south
+waitfor roundtime
+put look
+matchwait
+
+swimsouth:
+put s
+match swimsouth south
+match swimsouth wait
+match swimnorth paths: north
+waitfor roundtime
+put look
+matchwait

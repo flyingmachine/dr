@@ -6,19 +6,15 @@ put look
 matchwait
 
 swimnorth:
-put n
 match swimnorth paths: north
 match swimnorth wait
 match swimsouth south
-waitfor roundtime
-put look
+put n
 matchwait
 
 swimsouth:
-put s
 match swimsouth south
 match swimsouth wait
 match swimnorth paths: north
-waitfor roundtime
-put look
+put s
 matchwait

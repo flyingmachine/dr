@@ -6,15 +6,17 @@ put look
 matchwait
 
 swimnorth:
+put n
 match swimnorth paths: north
 match swimnorth wait
 matchre swimsouth /paths:.*?south/i
-put n
+put look
 matchwait
 
 swimsouth:
+put s
 matchre swimsouth /paths:.*?south/i
 match swimsouth wait
 match swimnorth paths: north
-put s
+put look
 matchwait

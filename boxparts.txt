@@ -64,7 +64,7 @@ put give pin to %1
 goto pin
 
 crystal:
-put get crystal
+put get broken crystal
 match sellcrystal You get
 match seal What were
 matchwait
@@ -104,14 +104,14 @@ put give reservoir to %1
 goto reservoir
 
 rune:
-put get rune
+put get broken rune
 match sellrune You get
 match exit What were
 matchwait
 
 sellrune:
-put give rune to %1
-goto rune
+put give broken rune to %1
+goto broken rune
 
 exit:
 exit
